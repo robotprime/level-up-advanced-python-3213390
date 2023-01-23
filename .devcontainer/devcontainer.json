@@ -8,6 +8,11 @@
 			"NODE_VERSION": "lts/*"
 		}
 	},
+	"features": {
+    		"ghcr.io/devcontainers/features/sshd:1": {
+        	"version": "latest"
+    		}
+	},
 	"settings": { 
 		"python.defaultInterpreterPath": "/usr/local/bin/python",
 		"python.linting.enabled": true,
